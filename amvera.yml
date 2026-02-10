@@ -15,4 +15,3 @@ run:
   command: npm run start
   persistenceMount: /data
   containerPort: "80"
-  nodeVersion: "20"  # Добавьте эту строку
