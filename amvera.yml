@@ -12,6 +12,7 @@ run:
 #  scriptName: index.js
   scriptArguments: null
   nodeArguments: null
-  command: npm run build && npm run start
+  build: npm run build
+command: npm run start
   persistenceMount: /data
   containerPort: "80"
