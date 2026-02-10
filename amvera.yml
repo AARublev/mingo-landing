@@ -9,7 +9,7 @@ build:
   artifacts:
     "*": /
 run:
-  scriptName: index.js
+#  scriptName: index.js
   scriptArguments: null
   nodeArguments: null
   command: npm run start
