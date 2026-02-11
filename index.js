@@ -10,9 +10,9 @@ exec('npm run build', (error, stdout, stderr) => {
   }
   console.log(stdout);
   
-  // После успешной сборки запускаем приложение
-  console.log('Build completed. Starting server...');
-  exec('npm run start', (error, stdout, stderr) => {
+  // После успешной сборки запускаем приложение на порту 80
+  console.log('Build completed. Starting server on port 80...');
+  exec('PORT=80 npm run start', (error, stdout, stderr) => {
     if (error) {
       console.error(`Start error: ${error}`);
       return;
