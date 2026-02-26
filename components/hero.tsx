@@ -14,7 +14,7 @@ const clubs = [
 const guarantees = [
   "Не подошёл кружок? Поменяем бесплатно в течение месяца",
   "Еженедельная обратная связь родителям",
-  "11 600\u20BD/мес за 8 занятий",
+  "4 900\u20BD/мес за 4+ занятия",
 ]
 
 const floatingCards = [
@@ -97,7 +97,7 @@ export function Hero({ onCtaClick }: HeroProps) {
               onClick={onCtaClick}
               className="inline-flex flex-shrink-0 items-center gap-2 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all hover:-translate-y-1 hover:shadow-2xl"
             >
-              {"Записаться на бесплатное пробное занятие"}
+              {"Записаться на пробное занятие"}
             </button>
             <p className="text-sm text-gray-500 text-center md:text-left">
               {"Группы до 8-10 детей \u2022 2 раза в неделю"}
