@@ -27,7 +27,7 @@ export function FinalCTA({ onCtaClick }: FinalCTAProps) {
             </h2>
 
             <p className="mb-8 max-w-xl text-lg text-blue-100 md:text-xl">
-              {"Запишитесь на бесплатное пробное занятие и увидите как ваш ребёнок увлечётся настоящим делом"}
+              {"Запишитесь на пробное занятие и увидите как ваш ребёнок увлечётся настоящим делом"}
             </p>
 
             {/* Benefits */}
@@ -73,7 +73,7 @@ export function FinalCTA({ onCtaClick }: FinalCTAProps) {
 
         {/* Additional Info */}
         <p className="mt-8 text-center text-sm text-blue-200 md:text-base">
-          {"11,600\u20BD/мес \u2022 8 занятий \u2022 Первое бесплатно"}
+          {"4,900\u20BD/мес \u2022 от 4 занятий \u2022 Пробное за 500₽"}
         </p>
 
       </div>
