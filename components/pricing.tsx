@@ -4,7 +4,7 @@ import Image from "next/image"
 import { Check } from "lucide-react"
 
 const features = [
-  "8 занятий по 60 минут",
+  "от 4 занятий по 60 минут",
   "Профессиональный педагог",
   "Группа 8-10 детей",
   "Еженедельная обратная связь",
@@ -28,7 +28,7 @@ export function Pricing({ onCtaClick }: PricingProps) {
             </p>
 
             <h2 className="mb-8 text-balance text-center text-4xl font-bold text-gray-900 md:text-left md:text-5xl">
-              {"Всего за 1,450\u20BD за одно занятие"}
+              {"Всего за 1,225\u20BD за одно занятие"}
             </h2>
 
             {/* Illustration */}
@@ -55,7 +55,7 @@ export function Pricing({ onCtaClick }: PricingProps) {
               {/* Price */}
               <div className="mb-8 text-center">
                 <p className="text-4xl font-bold text-gray-900 md:text-5xl">
-                  {"11,600\u20BD / МЕСЯЦ"}
+                  {"4,900\u20BD / МЕСЯЦ"}
                 </p>
               </div>
 
@@ -77,7 +77,7 @@ export function Pricing({ onCtaClick }: PricingProps) {
                 onClick={onCtaClick}
                 className="mt-8 block w-full rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 px-8 py-4 text-center text-lg font-semibold text-white shadow-lg transition-all hover:-translate-y-1 hover:shadow-2xl"
               >
-                {"Попробовать бесплатно"}
+                {"Попробовать за 500₽"}
               </button>
             </div>
           </div>
