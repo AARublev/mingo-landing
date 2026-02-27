@@ -115,10 +115,10 @@ export function SignupModal({ isOpen, onClose }: SignupModalProps) {
         ) : (
           <>
             <h3 className="mb-2 pr-8 text-xl font-bold text-gray-900 md:text-2xl">
-              {"Запишитесь на бесплатное пробное занятие"}
+              {"Запишитесь на пробное занятие за 500₽"}
             </h3>
             <p className="mb-6 text-sm text-gray-500">
-              {"Оставьте контакты и мы подберём кружок для вашего ребёнка"}
+              {"Оставьте контакты — подберём кружок и забронируем место"}
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-5">
