@@ -1,8 +1,6 @@
 import React from "react"
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Script from 'next/script'  // ← добавь импорт
-
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin', 'cyrillic'], variable: '--font-inter' })
@@ -19,9 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <body className={`${inter.variable} font-sans antialiased`}>
-        {/* VK Pixel */}
-        <Script id="vk-pixel" strategy="afterInteractive">{`
+      <head>
+        <script type="text/javascript" dangerouslySetInnerHTML={{ __html: `
           var _tmr = window._tmr || (window._tmr = []);
           _tmr.push({id: "3745662", type: "pageView", start: (new Date()).getTime()});
           (function (d, w, id) {
@@ -31,13 +28,14 @@ export default function RootLayout({
             var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
             if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
           })(document, window, "tmr-code");
-        `}</Script>
+        `}} />
         <noscript>
           <div>
             <img src="https://top-fwz1.mail.ru/counter?id=3745662;js=na" style={{position:'absolute',left:'-9999px'}} alt="Top.Mail.Ru" />
           </div>
         </noscript>
-
+      </head>
+      <body className={`${inter.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>
