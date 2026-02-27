@@ -100,7 +100,7 @@ export function Hero({ onCtaClick }: HeroProps) {
               {"Записаться на пробное занятие"}
             </button>
             <p className="text-sm text-gray-500 text-center md:text-left">
-              {"Группы до 8-10 детей \u2022 2 раза в неделю"}
+              {"Группы до 8-10 детей \u2022 от 4 занятий в месяц"}
             </p>
           </div>
         </div>
