@@ -1,3 +1,5 @@
+"use client"
+
 import { Send, Mail, Phone } from "lucide-react"
 
 const clubLinks = [
