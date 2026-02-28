@@ -62,6 +62,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-gray-300 transition-colors hover:text-blue-400"
+                onClick={() => { if(typeof ym !== 'undefined') ym(107047349,'reachGoal','telegram_click'); }}
               >
                 {"Напишите в Telegram"}
               </a>

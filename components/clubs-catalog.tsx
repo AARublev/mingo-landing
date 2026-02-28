@@ -134,7 +134,7 @@ export function ClubsCatalog({ onCtaClick }: ClubsCatalogProps) {
 
                 <button
                   type="button"
-                  onClick={onCtaClick}
+                  onClick={() => { if(typeof ym !== 'undefined') ym(107047349,'reachGoal','signup_click'); onCtaClick(); }}
                   className="mt-6 block w-full rounded-lg border-2 border-blue-500 bg-transparent px-4 py-3 text-center text-sm font-semibold text-blue-500 transition-all hover:bg-blue-500 hover:text-white"
                 >
                   {club.cta}
@@ -192,7 +192,7 @@ export function ClubsCatalog({ onCtaClick }: ClubsCatalogProps) {
 
                   <button
                     type="button"
-                    onClick={onCtaClick}
+                    onClick={() => { if(typeof ym !== 'undefined') ym(107047349,'reachGoal','signup_click'); onCtaClick(); }}
                     className="mt-6 block w-full rounded-lg bg-gradient-to-r from-orange-500 to-amber-400 px-4 py-3 text-center text-sm font-semibold text-white"
                   >
                     {club.cta}
@@ -213,7 +213,7 @@ export function ClubsCatalog({ onCtaClick }: ClubsCatalogProps) {
         <div className="mt-12 text-center">
           <button
             type="button"
-            onClick={onCtaClick}
+            onClick={() => { if(typeof ym !== 'undefined') ym(107047349,'reachGoal','signup_click'); onCtaClick(); }}
             className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all hover:-translate-y-1 hover:shadow-2xl"
           >
             {"Не знаете что выбрать? Поможем подобрать"}
