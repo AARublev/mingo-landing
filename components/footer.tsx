@@ -91,10 +91,10 @@ export function Footer() {
         {/* Bottom */}
         <div className="mt-12 border-t border-gray-800 pt-8">
           <div className="flex flex-wrap justify-center gap-6">
-            <a href="#" className="text-xs text-gray-500 transition-colors hover:text-gray-400">
+            <a href="/privacy" className="text-xs text-gray-500 transition-colors hover:text-gray-400">
               {"Политика конфиденциальности"}
             </a>
-            <a href="#" className="text-xs text-gray-500 transition-colors hover:text-gray-400">
+            <a href="/terms" className="text-xs text-gray-500 transition-colors hover:text-gray-400">
               {"Договор оферты"}
             </a>
             <a href="#faq" className="text-xs text-gray-500 transition-colors hover:text-gray-400">
