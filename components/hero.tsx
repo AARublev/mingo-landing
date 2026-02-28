@@ -94,7 +94,7 @@ export function Hero({ onCtaClick }: HeroProps) {
           <div className="mt-8 flex flex-col items-center gap-2 md:items-start">
             <button
               type="button"
-              onClick={() => { if(typeof ym !== 'undefined') ym(107047349,'reachGoal','signup_click'); onCtaClick(); }}
+              onClick={onCtaClick}
               className="inline-flex flex-shrink-0 items-center gap-2 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all hover:-translate-y-1 hover:shadow-2xl"
             >
               {"Записаться на пробное занятие"}
