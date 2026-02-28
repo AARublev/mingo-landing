@@ -64,7 +64,7 @@ export function FinalCTA({ onCtaClick }: FinalCTAProps) {
         <div className="flex justify-center">
           <button
             type="button"
-            onClick={() => { if(typeof ym !== 'undefined') ym(107047349,'reachGoal','signup_click'); onCtaClick(); }}
+            onClick={onCtaClick}
             className="rounded-xl bg-white px-12 py-5 text-lg font-bold text-blue-600 shadow-2xl transition-all hover:scale-105 hover:bg-blue-50 md:text-xl"
           >
             {"Записаться на пробное занятие прямо сейчас"}
