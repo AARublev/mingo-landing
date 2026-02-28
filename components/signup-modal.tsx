@@ -61,6 +61,7 @@ export function SignupModal({ isOpen, onClose }: SignupModalProps) {
       // Отправка в Telegram
       await sendToTelegram(name, phone)
 
+    if(typeof ym !== 'undefined') ym(107047349,'reachGoal','form_submit');
       setSubmitted(true)
       setTimeout(() => {
         setSubmitted(false)
