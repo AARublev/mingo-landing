@@ -59,7 +59,6 @@ export function Footer() {
             <div className="flex flex-col items-center gap-3 text-sm text-gray-400 md:items-start">
               <a
                 href="https://t.me/mingo_online_bot"
-                onClick={() => { if(typeof ym !== 'undefined') ym(107047349,'reachGoal','telegram_click'); }}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-gray-300 transition-colors hover:text-blue-400"
